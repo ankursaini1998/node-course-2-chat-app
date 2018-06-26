@@ -8,5 +8,5 @@ app.use(express.static(publicPath));
 
 app.listen(port,()=>
 {
-  console.log('connected on port ' +port);
+  console.log(`connected on port ${port}`);
 });
